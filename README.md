@@ -76,12 +76,16 @@ Functional Simulation:
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
 
 ## Fig 3: Setting Multi-step simulation
+![WhatsApp Image 2024-11-21 at 6 43 28 PM](https://github.com/user-attachments/assets/207bf8d7-fc81-4f82-95ba-b4a4be5a3524)
+
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
 
 ## Fig 4: cds.lib file Creation
+![WhatsApp Image 2024-11-21 at 6 43 29 PM](https://github.com/user-attachments/assets/10eccb63-aeb9-4901-b1e3-c7f8dc5156da)
+
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
@@ -124,6 +128,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ## Fig 7: Compiled database in worklib
+![WhatsApp Image 2024-11-21 at 6 43 30 PM](https://github.com/user-attachments/assets/fddab0be-0b88-411c-b28e-1d18086bc262)
+
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -153,6 +159,8 @@ It contains statements that map logical library names to their physical director
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
 ## Fig 8: Elaboration Launch Option
+![WhatsApp Image 2024-11-21 at 6 43 31 PM](https://github.com/user-attachments/assets/a7fdedd1-d212-43b6-87cd-b991b8415132)
+
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -165,8 +173,12 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![WhatsApp Image 2024-11-21 at 6 43 31 PM](https://github.com/user-attachments/assets/a7fdedd1-d212-43b6-87cd-b991b8415132)
+
 
 ## Fig 10: Simulation Waveform Window
+![WhatsApp Image 2024-11-21 at 6 43 29 PM (1)](https://github.com/user-attachments/assets/39e2ab7e-6fb3-4d53-9bca-86ff10ad0b7d)
+
 
 ## Fig 11: Simulation Waveform Window
 
